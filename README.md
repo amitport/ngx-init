@@ -9,7 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 The usage involves some boilerplate, but that's the best Angular currently has to offer
 
 0) import `NgxInitModule`  
-0) a value expression is set via `[ngxInit]` on an `ng-template` and published into a variable name via `let-<you-var-name`
+0) a value expression is set via `[ngxInit]` on an `ng-template` and published into a variable name via `let-<you-var-name>`
 
 ## Examples
 

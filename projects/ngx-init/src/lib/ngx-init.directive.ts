@@ -9,7 +9,7 @@ export class NgxInitDirective {
     private viewContainer: ViewContainerRef) {
   }
 
-  @Input() set ngInit(val: any) {
+  @Input() set ngxInit(val: any) {
     this.viewContainer.createEmbeddedView(this.templateRef, {$implicit: val});
   }
 }
