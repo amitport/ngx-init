@@ -1,0 +1,13 @@
+{
+  "name": "ngx-init",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amitport/ngx-init.git"
+  },
+  "homepage": "https://github.com/amitport/ngx-init",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0",
+    "@angular/core": "^6.0.0"
+  }
+}
