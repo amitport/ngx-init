@@ -1,6 +1,7 @@
 {
   "name": "ngx-init",
   "version": "0.0.4",
+  "keywords": ["Angular"],
   "repository": {
     "type": "git",
     "url": "https://github.com/amitport/ngx-init.git"
