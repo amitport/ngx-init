@@ -1,6 +1,6 @@
 # NgxInit
 
-Angular.js' [ng-init directive](https://docs.angularjs.org/api/ng/directive/ngInit) for Angular
+Angular.js' [ng-init directive](https://docs.angularjs.org/api/ng/directive/ngInit) for Angular2+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
 
