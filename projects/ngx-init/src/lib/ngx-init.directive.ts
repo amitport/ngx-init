@@ -10,6 +10,6 @@ export class NgxInitDirective {
   }
 
   @Input() set ngxInit(val: any) {
-    this.viewContainer.createEmbeddedView(this.templateRef, {$implicit: val});
+    this.viewContainer.createEmbeddedView(this.templateRef, {ngxInit: val});
   }
 }
