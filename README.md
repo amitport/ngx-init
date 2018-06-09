@@ -36,6 +36,7 @@ the following are equivalent (assuming `i` and `j` are defined in the context):
 ```
        
 ### inside ngFor
+
 In the simple case, this directive cannot be used inside `ngFor` because in angular we can't have multiple template bindings on one element.
 In order to bypass this limitation we can use either `ng-container` or `ng-template`
 
@@ -58,4 +59,18 @@ Workarounds:
 <ng-template ngFor let-i [ngForOf]="[0, 1, 2]">
   <div *ngxInit="i * i as sqr" (click)="onClick(sqr)">{{sqr}}</div>
 </ng-template>
+```
+
+### with async pipe
+
+```html
+<ng-container *ngxInit="(state$ | async) as state">
+  <table id="board">
+    <tr *ngFor="let i of [0, 1, 2]">
+      <ng-container *ngFor="let j of [0, 1, 2]">
+          <td *ngxInit="3 * i + j as id" [ngClass]="{active: isActive(state, id)}" (click)="clickCell(id)">{{state.G.cells[id]}}</td>
+      </ng-container>
+    </tr>
+  </table>
+</ng-container>
 ```
