@@ -8,7 +8,7 @@
   },
   "homepage": "https://github.com/amitport/ngx-init",
   "peerDependencies": {
-    "@angular/common": "^6.0.0",
-    "@angular/core": "^6.0.0"
+    "@angular/common": "6 - 8",
+    "@angular/core": "6 - 8"
   }
 }
