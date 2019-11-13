@@ -4,9 +4,9 @@
   "newProjectRoot": "projects",
   "projects": {
     "ngx-init": {
+      "projectType": "library",
       "root": "projects/ngx-init",
       "sourceRoot": "projects/ngx-init/src",
-      "projectType": "library",
       "prefix": "lib",
       "architect": {
         "build": {
@@ -14,11 +14,6 @@
           "options": {
             "tsConfig": "projects/ngx-init/tsconfig.lib.json",
             "project": "projects/ngx-init/ng-package.json"
-          },
-          "configurations": {
-            "production": {
-              "project": "projects/ngx-init/ng-package.prod.json"
-            }
           }
         },
         "test": {
@@ -42,7 +37,6 @@
           }
         }
       }
-    }
-  },
+    }},
   "defaultProject": "ngx-init"
 }

@@ -1,8 +1,8 @@
 # NgxInit
 
-Angular.js' [ng-init directive](https://docs.angularjs.org/api/ng/directive/ngInit) for Angular2+
+Angular.js' [ng-init directive](https://docs.angularjs.org/api/ng/directive/ngInit) for Angular.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
 
 ## usage 
 
@@ -34,7 +34,7 @@ the following are equivalent (assuming `i` and `j` are defined in the context):
   <dd>this is the {{idx}} index</dd>
 </ng-template>
 ```
-       
+
 ### inside ngFor
 
 In the simple case, this directive cannot be used inside `ngFor` because in angular we can't have multiple template bindings on one element.
